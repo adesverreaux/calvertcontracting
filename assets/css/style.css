@@ -483,7 +483,7 @@ section {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: linear-gradient(#a3a9ae, #fff);
+  background: #fff;
   padding: 80px 0;
 }
 
@@ -771,7 +771,8 @@ section {
 --------------------------------*/
 #contact {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url(../img/services-bg.webp) fixed center center;
-  padding: 80px 0 120px 0;
+  background-size: cover;
+  padding: 80px 0 60px 0;
 }
 
 #contact .info {
